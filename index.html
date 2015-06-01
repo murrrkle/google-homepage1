@@ -2,20 +2,35 @@
 <html>
 	<head>
 		<title>Google</title>
+		<link href="css/styles.css" rel="stylesheet"/>
+
 	</head>
 
 	<body>
 		<nav></nav>
 
 		<section>
-			<div style="margin-top:80px; height:231px; text-align:center">
-				<img width="269" height="95" style="padding-top: 112px; text-align:center" src="https://www.google.com/images/srpr/logo11w.png"/>
-			</div>
-			
-			
+			<div class="main-container">
+				<div class="img-container text-center">
+					<img width="269" height="95" style="padding-top: 112px;" class="text-center" src="https://www.google.com/images/srpr/logo11w.png"/>
+				</div>
+				<div class="searchcontainer">
+					<div class="mic-icon-container">
+						<a href="#" class="mic-link">
+						<span class="mic-icon"></span>
+						</a>
+					</div>
+					<div class="searcharea-container">
+						<div class="inner-container">
+							<input type="text" id="searcharea" name="searcharea"/>
+						</div>
+					</div>
+				</div>
+				
+			</div>			
 		</section>
-		
 
-		
+		<script src="scripts/jquery-1.11.3.min.js"></script>
+		<script src="scripts/script.js"></script>
 	</body>
 </html>
