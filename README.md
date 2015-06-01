@@ -1,4 +1,4 @@
 # google-homepage1
-The Odin Project assignment repo
+Work by Christopher Tse
 
-<a href="https://www.theodinproject.com">The Odin Project</a>
+The assignment is part of a series called <a href="https://www.theodinproject.com">The Odin Project</a>. 
