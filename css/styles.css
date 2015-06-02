@@ -28,17 +28,20 @@
 
 .searchcontainer {
 	background: #fff;
-	border: 1px solid #d9d9d9;
-	border-top-color: #c0c0c0;
 	height: 28px;
 	vertical-align: top;
+	border: 1px solid #d9d9d9;
+	border-top-color: #c0c0c0;
 }
 
-.searchcontainer:hover {
+.searchcontainer-hover {
 	border: 1px solid #b9b9b9;
 	border-top-color: #a0a0a0;
 }
 
+.searchcontainer-focus {
+	border: 1px solid #4d90fe;
+}
 
 .mic-icon-container {
 	line-height: 28px;
@@ -70,7 +73,6 @@
 	height: 1.2em;
 	line-height: 1.2em !important;
 	font: 16px arial, sans-serif;
-
 }
 
 .mic-link {

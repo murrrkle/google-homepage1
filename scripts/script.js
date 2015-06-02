@@ -1,7 +1,15 @@
+$( ".searchcontainer" ).mouseover(function() {
+	$( this ).addClass( "searchcontainer-hover" );
+});
+
+$( ".searchcontainer" ).mouseleave(function() {
+	$( this ).removeClass( "searchcontainer-hover" );
+});
+
 $( "#searcharea" ).focus(function() {
-  $(".searchcontainer").css("border", "1px solid #4d90fe");
+	$( ".searchcontainer" ).addClass( "searchcontainer-focus" );
 });
 
 $( "#searcharea" ).blur(function() {
-  $(".searchcontainer").css({"border": "1px solid #d9d9d9", "border-top-color": "#c0c0c0"});
+	$( ".searchcontainer" ).removeClass( "searchcontainer-focus" );
 });
